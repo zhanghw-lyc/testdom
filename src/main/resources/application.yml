@@ -1,0 +1,12 @@
+server:
+  port: 8088
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.0.143:3306/bdkj-website?cuseUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8&zeroDateTimeBehavior=CONVERT_TO_NULL
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+logging:
+  level:
+    com.pms.mapper: debug
+filePath: D:/attachment
